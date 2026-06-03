@@ -1,10 +1,11 @@
-# What is CSS and how do you add it to an HTML page?
+## What is CSS and how do you add it to an HTML page?
 
-What does CSS stand for?
+
+### What does CSS stand for?
 
 CSS stands for Cascading Style Sheets. It is a stylesheet language used to control the appearance, layout, and visual design of web pages.
 
-## Html and Css Example 
+#### Html and Css Example 
 
 ```html
 
@@ -18,21 +19,21 @@ h1 {
 }
 ```
 
-## What problem does CSS solve?
+### What problem does CSS solve?
 
 CSS separates the content of a web page from its design. Without CSS, websites would look plain and difficult to manage. CSS helps developers create attractive, organized, and user-friendly websites.
 
-CSS is also used to:
+- CSS is also used to:
 
-Create layouts using Flexbox and CSS Grid
+- Create layouts using Flexbox and CSS Grid
 
-Add shadows and borders
+- Add shadows and borders
 
-Create animations and transitions
+- Create animations and transitions
 
-Build responsive websites using Media Queries
+- Build responsive websites using Media Queries
 
-Manage reusable styles with CSS Variables
+- Manage reusable styles with CSS Variables
 
   ```Html
 
@@ -59,7 +60,7 @@ p {
 
 The heading becomes purple and centered, the paragraph becomes easier to read, and elements can have borders and shadows. This makes the website more attractive, professional, and easier to maintain. 
 
-## Name all three methods of adding CSS?
+### Name all three methods of adding CSS?
 
 Three Methods of Adding CSS
 
@@ -67,7 +68,7 @@ Three Methods of Adding CSS
 
 In External CSS, styles are written in a separate .css file and linked to the HTML document. This is the most recommended method because it keeps code organized and allows one CSS file to style multiple web pages. 
 
-### index.html
+#### index.html
 
 <!DOCTYPE html>
 <html>
@@ -84,13 +85,14 @@ In External CSS, styles are written in a separate .css file and linked to the HT
 </html>
 ```
 
-### Style.css
+#### Style.css
+
 ```css
 h1{
     color: blue;
 }
 ```
-Internal Css:
+#### Css:
 
 In Internal CSS, styles are written inside the <style> tag in the <head> section of the HTML document. It is useful when styling a single web page.
 
@@ -115,7 +117,7 @@ h1{
 </html>
 
 
-Inline Css:
+#### Inline Css:
 
 In Inline CSS, styles are written directly inside an HTML element using the style attribute. It is suitable for applying styles to a specific element only. 
 
@@ -128,18 +130,23 @@ In Inline CSS, styles are written directly inside an HTML element using the styl
 </body>
 </html>
 
-Why is External CSS Preferred Over Inline CSS? 
+### Why is External CSS Preferred Over Inline CSS? 
 
 Easier to Maintain
 If you want to change a style, you only need to edit one CSS file instead of editing every HTML element.
+
 Cleaner Code
+
 HTML files remain simple and easy to read.
+
 Styling code is stored separately.
+
 Used in Professional Projects
+
 Most real-world websites use External CSS because it is efficient and scalable.
 
 
-Index.html
+#### Index.html
 
 <!DOCTYPE html>
 <html>
@@ -156,7 +163,8 @@ Index.html
 </body>
 </html>
 
-About.html
+#### About.html
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -172,7 +180,7 @@ About.html
 </body>
 </html>
 
-Style.css
+#### Style.css
 
 h1 {
     color: blue;
