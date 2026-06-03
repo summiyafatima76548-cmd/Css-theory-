@@ -1,6 +1,8 @@
 🎨 CSS Fundamentals
 
-# What is CSS?
+## What is Css and how do you add it to in html page?
+
+### What is CSS?
 
 CSS (Cascading Style Sheets) is a stylesheet language used to control the appearance and layout of web pages.
 
@@ -9,14 +11,16 @@ HTML creates the structure of a webpage, while CSS is responsible for the design
 🏠 ## Real-Life Example
 
 Technology| Purpose
+
 HTML| Structure of a House
+
 CSS| Paint, Decoration & Design
 
 Without CSS, websites would look plain and unattractive.
 
 ---
 
-# What Does CSS Stand For?
+### What Does CSS Stand For?
 
 CSS = Cascading Style Sheets
 
@@ -28,7 +32,7 @@ CSS = Cascading Style Sheets
 
 ---
 
-# What Problem Does CSS Solve?
+### What Problem Does CSS Solve?
 
 HTML only provides content and structure.
 
@@ -39,7 +43,7 @@ HTML Example
 
 Output
 
-Welcome
+### Welcome
 
 This is my website.
 
@@ -64,18 +68,21 @@ Result
 
 ---
 
-# Methods of Adding CSS
+### Methods of Adding CSS
 
 There are 3 ways to add CSS to HTML.
 
 Method| Description
+
 External CSS| Separate CSS File
+
 Internal CSS| "<style>" Tag
+
 Inline CSS| "style=""" Attribute
 
 ---
 
-1️⃣ External CSS
+ 1 External CSS
 
 External CSS stores styles in a separate ".css" file.
 
@@ -90,7 +97,7 @@ HTML File
 </head>
 <body>
 
-<h1>External CSS Example</h1>
+<h2>External CSS Example</h2>
 
 </body>
 </html>
@@ -112,7 +119,7 @@ h1{
 
 ---
 
-2️⃣ Internal CSS
+2 Internal CSS
 
 Internal CSS is written inside the "<style>" tag.
 
@@ -133,7 +140,7 @@ h1{
 </head>
 <body>
 
-<h1>Internal CSS Example</h1>
+<h2>Internal CSS Example</h2>
 
 </body>
 </html>
@@ -144,7 +151,7 @@ Output
 
 ---
 
-3️⃣ Inline CSS
+3 Inline CSS
 
 Inline CSS is written directly inside HTML elements.
 
@@ -152,9 +159,9 @@ Inline CSS is written directly inside HTML elements.
 <html>
 <body>
 
-<h1 style="color:red; font-size:32px;">
+<h2 style="color:red; font-size:32px;">
 Inline CSS Example
-</h1>
+</h2>
 
 </body>
 </html>
@@ -173,7 +180,7 @@ HTML → Structure
 
 CSS → Styling
 
-<h1>My Website</h1>
+<h2>My Website</h2>
 
 h1{
     color: blue;
@@ -256,7 +263,7 @@ index.html
 </head>
 <body>
 
-<h1>Welcome to CSS</h1>
+<h2>Welcome to CSS</h2>
 
 <p>This is my first styled webpage.</p>
 
