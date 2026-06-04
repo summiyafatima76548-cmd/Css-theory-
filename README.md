@@ -4,7 +4,7 @@
 
 ---
 
-# 1. What Does CSS Stand For?
+## 1. What Does CSS Stand For?
 
 **CSS** stands for **Cascading Style Sheets**.
 
@@ -45,7 +45,7 @@ The heading will appear in blue color and centered on the page.
 
 ---
 
-# 2. What Problem Does CSS Solve?
+## 2. What Problem Does CSS Solve?
 
 Before CSS was introduced, styling had to be added directly inside HTML elements. This made web pages difficult to maintain and update.
 
@@ -107,7 +107,7 @@ p {
 
 ---
 
-# 3. Name All Three Methods of Adding CSS
+## 3. Name All Three Methods of Adding CSS
 
 There are three different ways to add CSS to an HTML document:
 
@@ -218,7 +218,7 @@ h1 {
 
 ---
 
-# 4. Why Is External CSS Preferred Over Inline CSS?
+## 4. Why Is External CSS Preferred Over Inline CSS?
 
 External CSS is the most recommended method in professional web development because it provides better organization and maintainability.
 
@@ -290,7 +290,7 @@ Browsers can cache external CSS files, helping websites load faster.
 
 ---
 
-# Conclusion
+## Conclusion
 
 CSS (**Cascading Style Sheets**) is used to style and design web pages. It separates content from presentation and improves the appearance of websites.
 
