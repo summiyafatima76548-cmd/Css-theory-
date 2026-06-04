@@ -1,4 +1,4 @@
-# Assignment 1: CSS Fundamentals
+# Css theory (Part 1): CSS Fundamentals
 
 ## What is CSS and How Do You Add It to an HTML Page?
 
